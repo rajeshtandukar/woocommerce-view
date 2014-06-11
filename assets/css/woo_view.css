@@ -1,0 +1,240 @@
+.wc_woo_view_wrapper{
+   /* background: none repeat scroll 0 0 #EAEBE5;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    float: right;
+    margin-top: -50px;*/
+
+    background: none repeat scroll 0 0 #EAEBE5;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    float: left;
+    overflow: hidden;
+    clear: both;
+    margin: 0 0 20px;
+
+
+}
+
+.wc_woo_view_wrapper #wc_woo_view_tabs{
+    float: right;
+    line-height: normal;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.wc_woo_view_wrapper #wc_woo_view_tabs ul{
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.wc_woo_view_wrapper #wc_woo_view_tabs li{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.wc_woo_view_wrapper #wc_woo_view_tabs li a,
+.wc_woo_view_wrapper #wc_woo_view_tabs li a.selected{
+    float: left;
+    font-size: 13px;
+    height: 7px;
+    line-height: 25px;
+    margin: 1px 1px 0 0;
+    padding: 9px;
+    width: 12px;
+}
+
+
+.wc_woo_view_wrapper #wc_woo_view_tabs li a:hover{
+    box-shadow: 0 0 7px #CCCCCC ;
+}
+
+
+.wc_woo_view_wrapper #wc_woo_view_tabs li a,
+.wc_woo_view_wrapper #wc_woo_view_tabs li a.selected{
+
+    -moz-box-sizing: content-box;
+}
+
+.wc_woo_view_wrapper #wc_woo_view_tabs li a.selected{
+    box-shadow:0 0 7px #CCCCCC inset;
+
+}
+
+
+
+
+.wc_woo_view_wrapper #wc_woo_view_tabs .selected{
+    background: none repeat scroll 0 0 transparent;
+}
+
+.wc_woo_view_wrapper #wc_woo_view_tabs span{
+    border: medium none;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+}
+
+.wc_woo_view_wrapper #wc_woo_view_tabs em.list, .wc_woo_view_wrapper #wc_woo_view_tabs em.date, .wc_woo_view_wrapper #wc_woo_view_tabs em.grid, .wc_woo_view_wrapper #wc_woo_view_tabs em.map{
+    background: url('../images/icon.png') no-repeat scroll left top transparent;
+    float: left;
+    height: 11px;
+    width: 11px;
+}
+
+.wc_woo_view_wrapper #wc_woo_view_tabs em.date{
+    background-position: -23px 0;
+    height: 13px;
+    margin-top: -2px;
+    width: 12px;
+}
+
+.wc_woo_view_wrapper #wc_woo_view_tabs em.grid{
+    background-position: -11px 0;
+
+}
+
+.wc_woo_view_wrapper #wc_woo_view_tabs em.map{
+    background-position: -36px 0;
+    height: 17px;
+    margin-top: -5px;
+    width: 12px;
+}
+
+.wc_woo_view_content_wrapper{
+    margin-top: 40px;
+    clear: both;
+}
+
+#wc_woo_view_scroller{
+    float: left;
+    overflow: auto;
+    position: relative;
+    width: 38%;
+}
+
+.wc_scroll_height{
+    height: 400px;
+
+
+}
+.wc_woo_scroller{
+    border: 1px solid #BACED7;
+    box-shadow:3px 3px 3px rgba(199, 199, 199, 0.1);
+}
+
+#wc_woo_canvas_wrapper{
+    float: right;
+    width: 61%;
+}
+
+.wc_woo_clear{
+    border: medium none;
+    clear: both;
+    height: 0;
+}
+
+
+ul.products.map li.product:after, ul.products.date li.product:after, ul.products.list li.product:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+ul.products.date li.product, ul.products.list li.product {
+    float: none !important;
+    text-align: left !important;
+    width: 100% !important;
+    border-bottom: 1px solid #BACED7;
+}
+
+ul.products.map li.product{
+    float: none !important;
+    text-align: left !important;
+    width: 90% !important;
+    border-bottom: 1px solid #BACED7;
+}
+
+ul.products.map li.product, ul.products.date li.product, ul.products.list li.product {
+    float: left;
+    margin: 0 4.8% 0.992em 0;
+    /*padding-bottom: 3px;
+    padding-left: 5px;*/
+    padding: 5px 5px;
+    position: relative;
+    width: 22.05%;
+}
+
+
+ul.products.map li.product img, ul.products.date li.product img, ul.products.list li.product img {
+    float: left;
+    margin-bottom: 1.5em;
+    margin-right: 3.8% !important;
+    width: 17.75% !important;
+}
+ul.products.map li.product h3, ul.products.map li.product .gridlist-buttonwrap {
+    clear: none;
+    float: right;
+    width: 78.4%;
+}
+
+ul.products.list li.product h3, ul.products.list li.product .gridlist-buttonwrap {
+    clear: none;
+    float: right;
+    width: 78.4%;
+}
+
+
+
+ul.products.date div.woo_view_date_list{
+    background:#f6f6f6;
+    border: 1px solid #DCDCDC;
+    padding:5px;
+    margin-bottom:10px;
+}
+
+ul.products.date div.woo_view_date{
+
+    font-weight:normal;
+    font-size:18px;
+    font-weight:normal;
+    font-size:18px;
+    background:url("../images/woo_view_calendar.png") no-repeat left;
+    padding-left:40px;
+    line-height:30px;
+
+}
+
+
+ul.products.date li.product h3, ul.products.date li.product .date_view_wrapper {
+    clear: none;
+    float: right;
+    width: 78.4%;
+}
+
+ul.products.map .selected {
+    background: #EEEEEE;
+}
+
+.woo_view_error{
+    border: 1px solid #FF0000 !important;
+}
+
+#woo_view_tbl{
+    width: 100%;
+}
+
+.woo_view_admin_canvas_wrapper{
+    border-top: 1px solid #DFDFDF;
+    padding-top: 10px;
+}
+
+.wc_woo_view_content_wrapper nav.woocommerce-pagination{
+     padding-top: 11px;
+}
